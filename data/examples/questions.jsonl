@@ -1,0 +1,3 @@
+{"question_id":"q001","question":"哪一视觉对象以面相丰圆和高肉髻为特征，它位于哪个洞窟？","answer":"第20窟主尊，位于第20窟。","required_modalities":["visual","text","relation"],"gold_evidence_ids":["v001","t001","r001"],"target_hints":{"visual":"面相丰圆 高肉髻 主尊","text":"早期造像 面相丰圆","relation":"主尊 位于 洞窟"}}
+{"question_id":"q002","question":"袈裟上具有千佛纹细节的立佛属于哪个洞窟？","answer":"第18窟。","required_modalities":["visual","text","relation"],"gold_evidence_ids":["v002","t002","r002"],"target_hints":{"visual":"立佛 袈裟 千佛纹","text":"千佛题材 识别特征","relation":"立佛 位于 洞窟"}}
+

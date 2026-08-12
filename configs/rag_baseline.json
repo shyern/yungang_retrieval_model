@@ -1,0 +1,6 @@
+{
+  "top_k_per_modality": 1,
+  "max_iterations": 2,
+  "required_modalities_default": ["visual", "text"],
+  "relation_expansion": true
+}

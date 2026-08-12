@@ -1,0 +1,7 @@
+{"evidence_id":"v001","modality":"visual","content":"第20窟主尊 胸像 正面 高肉髻 袈裟 局部","image_path":"images/cave20_main_buddha.jpg","relations":["r001"]}
+{"evidence_id":"v002","modality":"visual","content":"第18窟立佛 右肩 袈裟 千佛纹 局部","image_path":"images/cave18_standing_buddha.jpg","relations":["r002"]}
+{"evidence_id":"t001","modality":"text","content":"第20窟主尊为云冈石窟标志性露天大佛，面相丰圆，具有早期造像特征。","source":"example_catalogue:20","relations":["r001"]}
+{"evidence_id":"t002","modality":"text","content":"第18窟造像以立佛和袈裟上的千佛题材细节为重要识别特征。","source":"example_catalogue:18","relations":["r002"]}
+{"evidence_id":"r001","modality":"relation","content":"第20窟 主尊 位于 第20窟；主尊 对应 文献 t001","relations":["v001","t001"]}
+{"evidence_id":"r002","modality":"relation","content":"第18窟 立佛 位于 第18窟；立佛 对应 文献 t002","relations":["v002","t002"]}
+

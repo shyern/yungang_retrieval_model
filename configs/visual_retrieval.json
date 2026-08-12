@@ -1,0 +1,9 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "batch_size": 16,
+  "epochs": 5,
+  "learning_rate": 1e-5,
+  "temperature": 0.07,
+  "metrics_at_k": [1, 5, 10]
+}
+
