@@ -1,0 +1,29 @@
+{
+  "dataset_records": 3148,
+  "multi_positive_rows": 447,
+  "multi_positive_records": 447,
+  "hard_negative_rows": 60,
+  "hard_negative_groups": 30,
+  "relation_components": 3117,
+  "overlap_components": 1,
+  "splits": {
+    "train": {
+      "records": 2200,
+      "multi_positive_rows": 313,
+      "hard_negative_rows": 40,
+      "hard_negative_groups": 20
+    },
+    "validation": {
+      "records": 474,
+      "multi_positive_rows": 67,
+      "hard_negative_rows": 10,
+      "hard_negative_groups": 5
+    },
+    "test": {
+      "records": 474,
+      "multi_positive_rows": 67,
+      "hard_negative_rows": 10,
+      "hard_negative_groups": 5
+    }
+  }
+}

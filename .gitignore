@@ -7,3 +7,18 @@ data/raw/
 data/processed/
 checkpoints/
 
+
+# Local datasets and model weights
+seed_dataset/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Track A local model snapshots and experiment artifacts
+track_a_experiments/
+
+# Upstream repositories are installed or cloned separately
+third_party/Chinese-CLIP/
+third_party/R2D2/

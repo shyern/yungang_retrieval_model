@@ -1,0 +1,112 @@
+[
+  {
+    "group_id": "hn_004",
+    "pair_index": 1,
+    "entry_id": "v03_0168_015",
+    "name": "第6-7窟主尊右侧供养天",
+    "positive_image_path": "images/03-第三卷-第6窟-上/v03_ref_p0340_297e6e14fe4b.jpg",
+    "negative_image_path": "images/03-第三卷-第6窟-上/v03_ref_p0341_17f9dbe3dd84.jpg",
+    "description": "第6-7窟主尊两侧供养天交脚菩萨身光两侧下层，各有一立姿供养天，头梳高髻、宽脸，着圆领内衣，外穿短袖长裙，腰束带。右供养天一手托举博山炉，另一手臂均置腹前下垂。",
+    "category": "人物造像",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_004",
+    "pair_index": 2,
+    "entry_id": "v03_0168_016",
+    "name": "第6-7窟主尊左侧供养天",
+    "positive_image_path": "images/03-第三卷-第6窟-上/v03_ref_p0341_17f9dbe3dd84.jpg",
+    "negative_image_path": "images/03-第三卷-第6窟-上/v03_ref_p0340_297e6e14fe4b.jpg",
+    "description": "第6-7窟主尊两侧供养天交脚菩萨身光两侧下层，各有一立姿供养天，头梳高髻、宽脸，着圆领内衣，外穿短袖长裙，腰束带。左供养天一手托举钵状物。",
+    "category": "人物造像",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_006",
+    "pair_index": 1,
+    "entry_id": "v04_0188_024",
+    "name": "南壁东侧第3层龛右侧下层供养众",
+    "positive_image_path": "images/04-第四卷-第6窟-下/v04_ref_p0247_f933022f04cf.jpg",
+    "negative_image_path": "images/04-第四卷-第6窟-下/v04_ref_p0248_3ab3c3dc20b2.jpg",
+    "description": "佛像台座两侧各长跪3身供养天，头戴冠，冠面雕刻竖棱，这样的冠饰在石窟中更多地被用于表现女性。她们抿嘴含笑、双手捧钵。右侧则另刻画两圈阴线，钵体似更高一些。诸供养天均披帔帛，形象端庄温婉，躯体舒展匀称，气韵深沉典雅。",
+    "category": "人物造像",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_006",
+    "pair_index": 2,
+    "entry_id": "v04_0188_025",
+    "name": "南壁东侧第3层龛左侧下层供养众",
+    "positive_image_path": "images/04-第四卷-第6窟-下/v04_ref_p0248_3ab3c3dc20b2.jpg",
+    "negative_image_path": "images/04-第四卷-第6窟-下/v04_ref_p0247_f933022f04cf.jpg",
+    "description": "佛像台座两侧各长跪3身供养天，头戴冠，冠面雕刻竖棱，这样的冠饰在石窟中更多地被用于表现女性。她们抿嘴含笑、双手捧钵。左侧钵体素面。诸供养天均披帔帛，形象端庄温婉，躯体舒展匀称，气韵深沉典雅。",
+    "category": "人物造像",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_011",
+    "pair_index": 1,
+    "entry_id": "v03_0157_023",
+    "name": "中心塔柱南面下层内龛右侧拱尾金翅鸟返顾",
+    "positive_image_path": "images/03-第三卷-第6窟-上/v03_p0023_r03_e6bb53eb15b5.jpg",
+    "negative_image_path": "images/03-第三卷-第6窟-上/v03_p0023_r02_98bdad769e68.jpg",
+    "description": "中心塔柱南面下层内龛两侧拱尾金翅鸟返顾圆拱龛拱尾雕一对金翅鸟形象，左右两鸟身高约70厘米。回首返顾、圆睁大眼、展翅扬尾、双爪据地。尖喙高冠，身有密集鳞形羽纹。右鸟羽冠上端圆形；右鸟尖喙紧闭。此种鸟形与大同方山永固陵墓室券门上的鸟形如出一辙，尽显华丽之美。",
+    "category": "装饰纹样",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_011",
+    "pair_index": 2,
+    "entry_id": "v03_0157_024",
+    "name": "中心塔柱南面下层内龛左侧拱尾金翅鸟返顾",
+    "positive_image_path": "images/03-第三卷-第6窟-上/v03_p0023_r02_98bdad769e68.jpg",
+    "negative_image_path": "images/03-第三卷-第6窟-上/v03_p0023_r03_e6bb53eb15b5.jpg",
+    "description": "中心塔柱南面下层内龛两侧拱尾金翅鸟返顾圆拱龛拱尾雕一对金翅鸟形象，左右两鸟身高约70厘米。回首返顾、圆睁大眼、展翅扬尾、双爪据地。尖喙高冠，身有密集鳞形羽纹。拱尾左鸟羽冠呈三束并列，左鸟弯喙衔珠，左鸟尾部弧形转向龛内。此种鸟形与大同方山永固陵墓室券门上的鸟形如出一辙，尽显华丽之美。",
+    "category": "装饰纹样",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_022",
+    "pair_index": 1,
+    "entry_id": "v13_0165_011",
+    "name": "南壁东侧第3层中龛主尊背光外右侧供养天与飞天",
+    "positive_image_path": "images/13-第十三卷-第16窟/v13_ref_p0186_b82247853fb7.jpg",
+    "negative_image_path": "images/13-第十三卷-第16窟/v13_p0121_r02_780b26ce6094.jpg",
+    "description": "南壁东侧第3层中龛主尊背光外两侧供养天与飞天佛像背光外两侧雕供养天与飞天，他们的面容与佩饰大致相同，但服饰有别、姿态各异。右侧额发则分成几绺。飞天的头光与帔帛都叠压于火焰纹之上，可见当时设计过程的统一性。",
+    "category": "人物造像",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_022",
+    "pair_index": 2,
+    "entry_id": "v13_0165_012",
+    "name": "南壁东侧第3层中龛主尊背光外左侧供养天与飞天",
+    "positive_image_path": "images/13-第十三卷-第16窟/v13_p0121_r02_780b26ce6094.jpg",
+    "negative_image_path": "images/13-第十三卷-第16窟/v13_ref_p0186_b82247853fb7.jpg",
+    "description": "南壁东侧第3层中龛主尊背光外两侧供养天与飞天佛像背光外两侧雕供养天与飞天，他们的面容与佩饰大致相同，但服饰有别、姿态各异。左侧供养天与飞天的额发两分，飞天的头光与帔帛都叠压于火焰纹之上，可见当时设计过程的统一性。",
+    "category": "人物造像",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_027",
+    "pair_index": 1,
+    "entry_id": "v16_0183_011",
+    "name": "第19-1窟西壁南侧第3层龛右侧梵志",
+    "positive_image_path": "images/16-第十六卷-第19窟/v16_ref_p0213_9da29bc920ca.jpg",
+    "negative_image_path": "images/16-第十六卷-第19窟/v16_ref_p0214_bb0592ca51fb.jpg",
+    "description": "第19-1窟西壁南侧第3层龛两侧梵志龛外两侧雕梵志像，高髻分绺，具圆形头光。高鼻深目、瘦骨嶙峋，胸肋清晰可数。上身裸程、下着短裤。均一手举物伸出至龛柱，一手抚胯。右者呈立姿，额部、脸部均凹陷，尖下颌，踮起脚尖，左手举鸟形物，形象生动。",
+    "category": "人物造像",
+    "split": "validation"
+  },
+  {
+    "group_id": "hn_027",
+    "pair_index": 2,
+    "entry_id": "v16_0183_012",
+    "name": "第 19-1 窟西壁南侧第 3 层龛左侧梵志",
+    "positive_image_path": "images/16-第十六卷-第19窟/v16_ref_p0214_bb0592ca51fb.jpg",
+    "negative_image_path": "images/16-第十六卷-第19窟/v16_ref_p0213_9da29bc920ca.jpg",
+    "description": "第19-1窟西壁南侧第3层龛两侧梵志龛外两侧雕梵志像，高髻分绺，具圆形头光。高鼻深目、瘦骨嶙峋，胸肋清晰可数。上身裸程、下着短裤。均一手举物伸出至龛柱，一手抚胯。左者呈跪姿，上举的右手似持骷髅形物。",
+    "category": "人物造像",
+    "split": "validation"
+  }
+]

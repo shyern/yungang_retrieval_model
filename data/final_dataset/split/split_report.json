@@ -1,0 +1,29 @@
+{
+  "dataset_records": 4028,
+  "multi_positive_records": 1104,
+  "multi_positive_description_groups": 461,
+  "hard_negative_records": 586,
+  "hard_negative_groups": 586,
+  "relation_components": 2999,
+  "components_touching_multi_and_hard": 2,
+  "splits": {
+    "train": {
+      "records": 2819,
+      "multi_positive_records": 803,
+      "hard_negative_records": 381,
+      "hard_negative_groups": 381
+    },
+    "validation": {
+      "records": 605,
+      "multi_positive_records": 144,
+      "hard_negative_records": 102,
+      "hard_negative_groups": 102
+    },
+    "test": {
+      "records": 604,
+      "multi_positive_records": 157,
+      "hard_negative_records": 103,
+      "hard_negative_groups": 103
+    }
+  }
+}

@@ -12,14 +12,37 @@ def retrieval_metrics(
     if len(ranking_list) != len(gold_list):
         raise ValueError("rankings and gold must have equal length")
     if not ranking_list:
-        return {f"recall@{k}": 0.0 for k in ks} | {"mrr": 0.0, "mean_rank": 0.0}
+        return (
+            {f"recall@{k}": 0.0 for k in ks}
+            | {f"map@{k}": 0.0 for k in ks}
+            | {"mrr": 0.0, "mean_rank": 0.0}
+        )
 
     ranks = []
+    average_precisions = {k: [] for k in ks}
     for ranked_ids, relevant_ids in zip(ranking_list, gold_list):
+        if not relevant_ids:
+            raise ValueError("every query must have at least one relevant item")
         rank = next((i for i, item in enumerate(ranked_ids, 1) if item in relevant_ids), len(ranked_ids) + 1)
         ranks.append(rank)
+        for k in ks:
+            hits = 0
+            precision_sum = 0.0
+            for position, item in enumerate(ranked_ids[:k], 1):
+                if item in relevant_ids:
+                    hits += 1
+                    precision_sum += hits / position
+            average_precisions[k].append(
+                precision_sum / min(len(relevant_ids), k)
+            )
 
     result = {f"recall@{k}": sum(rank <= k for rank in ranks) / len(ranks) for k in ks}
+    result.update(
+        {
+            f"map@{k}": sum(average_precisions[k]) / len(average_precisions[k])
+            for k in ks
+        }
+    )
     result["mrr"] = sum(1.0 / rank for rank in ranks) / len(ranks)
     result["mean_rank"] = sum(ranks) / len(ranks)
     return result

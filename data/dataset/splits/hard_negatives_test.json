@@ -1,0 +1,112 @@
+[
+  {
+    "group_id": "hn_003",
+    "pair_index": 1,
+    "entry_id": "v03_0163_020",
+    "name": "中心塔柱东面下层内龛内右侧供养天",
+    "positive_image_path": "images/03-第三卷-第6窟-上/v03_p0091_r02_bb0910e11e0d.jpg",
+    "negative_image_path": "images/03-第三卷-第6窟-上/v03_p0092_r01_6fda1851fb10.jpg",
+    "description": "中心塔柱东面下层内龛内两侧供养天主像身光外侧，在弟子与胁侍菩萨像上方雕供养天像，共5层，左右各10身。下四层天人数量随空间收分向上递减，均头梳大髻，着短襦、长裙、十字帔帛。双手合掌或分置，为胡跪状。",
+    "category": "人物造像",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_003",
+    "pair_index": 2,
+    "entry_id": "v03_0163_021",
+    "name": "中心塔柱东面下层内龛内左侧供养天",
+    "positive_image_path": "images/03-第三卷-第6窟-上/v03_p0092_r01_6fda1851fb10.jpg",
+    "negative_image_path": "images/03-第三卷-第6窟-上/v03_p0091_r02_bb0910e11e0d.jpg",
+    "description": "中心塔柱东面下层内龛内两侧供养天主像身光外侧，在弟子与胁侍菩萨像上方雕供养天像，共5层，左右各10身。下四层天人数量随空间收分向上递减，均头梳大髻，着短襦、长裙、十字帔帛。双手合掌或分置，为胡跪状。左侧最上一天人面向外，左肩臂紧靠龛幕，头稍侧，像奋力要将龛幕支开，颇显滑稽。",
+    "category": "人物造像",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_013",
+    "pair_index": 1,
+    "entry_id": "v04_0191_009",
+    "name": "南壁第 5 层明窗东侧天宫伎乐列龛",
+    "positive_image_path": "images/04-第四卷-第6窟-下/v04_ref_p0322_04039afc50f8.jpg",
+    "negative_image_path": "images/04-第四卷-第6窟-下/v04_ref_p0323_0ee7dd7529e2.jpg",
+    "description": "龛下层为禅定坐佛带，经后世补泥彩绘。上层为天宫伎乐列龛。每一龛柱前各有1身持华绳童子，袒上身、戴项圈；有剃发形的比丘；另有前额头发“人”字形分向两侧，头顶中央雕扁平低髻者。明窗东侧乐伎所执乐器或姿态从左至右分别为合掌（歌者）、阮咸、法螺、横笛、排箫、腰鼓、鼓。",
+    "category": "人物造像",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_013",
+    "pair_index": 2,
+    "entry_id": "v04_0191_010",
+    "name": "南壁第 5 层明窗西侧天宫伎乐列龛",
+    "positive_image_path": "images/04-第四卷-第6窟-下/v04_ref_p0323_0ee7dd7529e2.jpg",
+    "negative_image_path": "images/04-第四卷-第6窟-下/v04_ref_p0322_04039afc50f8.jpg",
+    "description": "龛下层为禅定坐佛带，经后世补泥彩绘。上层为天宫伎乐列龛。每一龛柱前各有1身持华绳童子，袒上身、戴项圈；有剃发形的比丘；另有前额头发“人”字形分向两侧，头顶中央雕扁平低髻者。明窗西侧的为合掌（歌者）、义觜笛、法螺、五弦、腰鼓、排箫、鼓。",
+    "category": "人物造像",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_018",
+    "pair_index": 1,
+    "entry_id": "v07_0178_019",
+    "name": "前室北壁门楣上第2排庑殿顶西端飞天",
+    "positive_image_path": "images/07-第七卷-第9窟/v07_p0023_r02_a496559613d3.jpg",
+    "negative_image_path": "images/07-第七卷-第9窟/v07_p0024_r01_311097dad26b.jpg",
+    "description": "窟门上庑殿顶浮雕翼角处的二飞天，左右对称呈飞舞状。人物头梳高髻、面相丰圆、弯眉秀目，硕耳上佩戴圆形耳珰，饰圆形头光。颈部佩桃形项圈，上身斜披络腋，下穿羊肠大裙，帔帛绕臂搭下飘飞。西侧飞天左手抚摸屋檐下的滴水，右手握物抚胸。",
+    "category": "人物造像",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_018",
+    "pair_index": 2,
+    "entry_id": "v07_0178_020",
+    "name": "前室北壁门楣上第2排庑殿顶东端飞天",
+    "positive_image_path": "images/07-第七卷-第9窟/v07_p0024_r01_311097dad26b.jpg",
+    "negative_image_path": "images/07-第七卷-第9窟/v07_p0023_r02_a496559613d3.jpg",
+    "description": "窟门上庑殿顶浮雕翼角处的二飞天，左右对称呈飞舞状。人物头梳高髻、面相丰圆、弯眉秀目，硕耳上佩戴圆形耳珰，饰圆形头光。颈部佩桃形项圈，上身斜披络腋，下穿羊肠大裙，帔帛绕臂搭下飘飞。东侧飞天左手握巾，右手握物上举至屋檐。",
+    "category": "人物造像",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_020",
+    "pair_index": 1,
+    "entry_id": "v08_0161_024",
+    "name": "前室北壁西侧第 4 层龛右侧拱尾凤鸟返顾",
+    "positive_image_path": "images/08-第八卷-第10窟/v08_p0060_r02_957a94d158fd.jpg",
+    "negative_image_path": "images/08-第八卷-第10窟/v08_p0060_r03_81a078506e49.jpg",
+    "description": "前室北壁西侧第4层龛拱尾凤鸟返顾拱尾凤鸟侧立于莲花座之上，双翼外张、尾羽上翘，头顶饰三叶花冠，环眼尖啄，双腿一前一后，双爪犀利，其中一爪紧紧抓住莲花座上的板状物，回头昂首、分脚挺立。右侧凤鸟保存完整，造型粗犷、雕刻细腻。",
+    "category": "建筑空间",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_020",
+    "pair_index": 2,
+    "entry_id": "v08_0161_025",
+    "name": "前室北壁西侧第 4 层龛左侧拱尾凤鸟返顾",
+    "positive_image_path": "images/08-第八卷-第10窟/v08_p0060_r03_81a078506e49.jpg",
+    "negative_image_path": "images/08-第八卷-第10窟/v08_p0060_r02_957a94d158fd.jpg",
+    "description": "前室北壁西侧第4层龛拱尾凤鸟返顾拱尾凤鸟侧立于莲花座之上，双翼外张、尾羽上翘，头顶饰三叶花冠，环眼尖啄，双腿一前一后，双爪犀利，其中一爪紧紧抓住莲花座上的板状物，回头昂首、分脚挺立。左侧凤鸟彩绘为后世所为，但是身体和羽翼的轮廓仍保留着北魏风格。",
+    "category": "建筑空间",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_025",
+    "pair_index": 1,
+    "entry_id": "v15_0175_017",
+    "name": "南壁东侧第 3 层第 1 排左侧龛龛基右侧供养人行列",
+    "positive_image_path": "images/15-第十五卷-第18窟/v15_p0115_r01_c65953df9f4b.jpg",
+    "negative_image_path": "images/15-第十五卷-第18窟/v15_p0115_r02_9d7805f5242a.jpg",
+    "description": "南壁东侧第3层第1排左侧龛龛基供养人行列龛基正中雕方形题铭石，两侧各雕七供养人像，均为僧人居首。右侧僧人后随着鲜卑装的六女性。僧人双手合十，俗众则袖手恭从。",
+    "category": "人物造像",
+    "split": "test"
+  },
+  {
+    "group_id": "hn_025",
+    "pair_index": 2,
+    "entry_id": "v15_0175_018",
+    "name": "南壁东侧第 3 层第 1 排左侧龛龛基左侧供养人行列",
+    "positive_image_path": "images/15-第十五卷-第18窟/v15_p0115_r02_9d7805f5242a.jpg",
+    "negative_image_path": "images/15-第十五卷-第18窟/v15_p0115_r01_c65953df9f4b.jpg",
+    "description": "南壁东侧第3层第1排左侧龛龛基供养人行列龛基正中雕方形题铭石，两侧各雕七供养人像，均为僧人居首。左侧僧人后随着鲜卑装的五男性。僧人双手合十，俗众则袖手恭从。",
+    "category": "人物造像",
+    "split": "test"
+  }
+]

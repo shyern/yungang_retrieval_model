@@ -1,0 +1,912 @@
+{
+  "metadata": {
+    "source_file": "seed_dataset/dataset.json",
+    "source_sha256": "8f0d41d73880bde2f2d62a3da2085228d7e81999e54449d2027156e09783068b",
+    "selection": {
+      "field": "description",
+      "normalization": "remove whitespace, including full-width spaces",
+      "exclude_exact_matches": true,
+      "minimum_normalized_length": 30,
+      "similarity_metric": "difflib.SequenceMatcher ratio",
+      "similarity_threshold": 0.8,
+      "candidate_generation": {
+        "character_ngram_size": 4,
+        "minimum_shared_ngrams": 12,
+        "maximum_ngram_document_frequency": 120
+      }
+    },
+    "group_count": 39,
+    "record_count": 39,
+    "expanded_image_count": 85,
+    "matching_pair_count": 7
+  },
+  "groups": [
+    {
+      "group_id": "description_overlap_001",
+      "record_count": 1,
+      "expanded_image_count": 3,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 47,
+          "entry_id": "v01_0164_004",
+          "name": "第2窟中心塔柱",
+          "image_path": [
+            "images/01-第一卷-第1-4窟/v01_ref_p0065_95df66a3a573.jpg",
+            "images/01-第一卷-第1-4窟/v01_ref_p0066_64e353733152.jpg",
+            "images/01-第一卷-第1-4窟/v01_ref_p0071_a1884c173b47.jpg"
+          ],
+          "description": "自然毁坏严重。塔基立面呈横向长方形，均为混合材料修复面。分四层，下三层瓦垄顶下开龛造像，上一层为宝盖。",
+          "category": "建筑空间"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_002",
+      "record_count": 1,
+      "expanded_image_count": 3,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 345,
+          "entry_id": "v03_0157_013",
+          "name": "中心塔柱南面下层重龛主尊坐佛",
+          "image_path": [
+            "images/03-第三卷-第6窟-上/v03_ref_p0013_e969fe8880c9.jpg",
+            "images/03-第三卷-第6窟-上/v03_ref_p0014_5090b882e984.jpg",
+            "images/03-第三卷-第6窟-上/v03_ref_p0015_fc04a0877c5e.jpg"
+          ],
+          "description": "心塔柱南面中下层重龛主佛主佛经清代包泥、贴金、彩绘，呈现螺形发髻、顶有髻珠、面相丰圆、双眼微睁。头光内层的彩绘花草覆盖了原雕刻。坐佛左手抚膝，右手结施无畏印（手指残断）。上身内着僧祇支、腰间束带打结，外着冕服式袈裟，双肩与双膝部塑龙饰，肩部为对龙腾云，膝部为单龙衬花。衣襞覆座，跣右足、跏趺坐。从坐佛左侧的间隙里，可以看到北魏原雕像的衣摆向外扬起，可推测后代改造佛像程度之大小。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_003",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 422,
+          "entry_id": "v03_0168_013",
+          "name": "第6-6窟主尊菩萨头部",
+          "image_path": [
+            "images/03-第三卷-第6窟-上/v03_ref_p0337_9e790027a104.jpg",
+            "images/03-第三卷-第6窟-上/v03_ref_p0338_ef05104279bb.jpg"
+          ],
+          "description": "第6-6窟主尊菩萨位于第6窟明窗东侧，为壁龛式造像，交脚菩萨高约1.8米。头戴三面冠，正中两同心圆，圆心束帛，圆上有仰月形。三圆形冠面间有简化的忍冬叶纹。菩萨面相清秀，颈饰素面项圈，坠圆形饰物，上身着十字帔帛，下身着羊肠大裙，左手抚膝，右手上举胸前。身后具圆形头光与舟形身光。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_004",
+      "record_count": 1,
+      "expanded_image_count": 3,
+      "max_pair_similarity": 0.967901,
+      "matching_pairs": [
+        {
+          "entry_id_a": "v04_0189_015",
+          "entry_id_b": "v04_0189_016",
+          "similarity": 0.967901
+        }
+      ],
+      "records": [
+        {
+          "dataset_index": [
+            2608,
+            503
+          ],
+          "entry_id": [
+            "v04_0189_016",
+            "v04_0189_015"
+          ],
+          "name": "南壁中部第 3 层龛维摩诘居士",
+          "image_path": [
+            "images/04-第四卷-第6窟-下/v04_ref_p0268_79d2335a8e01.jpg",
+            "images/04-第四卷-第6窟-下/v04_ref_p0269_f76811f4a29f.jpg",
+            "images/04-第四卷-第6窟-下/v04_ref_p0267_2de19c2b87c2.jpg"
+          ],
+          "description": "南壁中部第3层龛维摩诘居士此像为表现辩才无碍的维摩诘居士，头戴尖顶帽，颏下一绺长须，微合的双目透射出睿智和深邃。左手托倚床榻，后有网状饰纹的围屏。彼时之榻多用于坐，少用于卧，画面中的维摩诘正是身体后倾、垂足而坐的样子。独坐一榻，本身就是尊贵与傲慢的表现，菩萨乃故意示现。维摩诘上穿交领长袍，衣服用阴线刻出波状花纹，腰间系带收身，袖口宽博，下穿裤，足蹬鞋。右手高举麈尾，这种高蹈超世的风度曾经受到无数名僧名士的效仿追慕。",
+          "category": "佛教故事"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_005",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 560,
+          "entry_id": "v05_0178_030",
+          "name": "后室西壁南侧第 4 层龛主尊坐佛",
+          "image_path": [
+            "images/05-第五卷-第7窟/v05_ref_p0121_a5470601280e.jpg",
+            "images/05-第五卷-第7窟/v05_ref_p0120_6d00050876b1.jpg"
+          ],
+          "description": "佛像面相丰圆、具高肉髻，弯眉修长、纤细，眼球微凸，高鼻直梁，两颊丰满圆润，嘴角上翘、双耳垂肩。胸部宽阔丰厚，体现出一种雄健之美。佛像两肩平正，具素面背光，内着僧祇支，外着偏袒右肩式袈裟。右手上举，左手握法衣。衣褶表现细致，左臂臂弯处的褶皱采用线刻与阶梯纹交替的雕刻技法，规整、逼真、准确。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_006",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 626,
+          "entry_id": "v06_0154_019",
+          "name": "后室北壁上层龛龛楣下东侧帷幕缘夜叉背部",
+          "image_path": [
+            "images/06-第六卷-第8窟/v06_ref_p0044_63ccab60b64d.jpg",
+            "images/06-第六卷-第8窟/v06_ref_p0045_0aa29082b090.jpg"
+          ],
+          "description": "后室北壁上层龛龛楣下东侧帷幕缘夜叉及背部帷幕下垂处，悬一高浮雕夜叉像，身高约1米，着犊鼻裤。人物体态健壮、胡貌逆发、高鼻大耳、圆眼凸出、牙齿出露，帔帛由背部绕臂回转飘扬。右手向上高举托扶帷幕，一腿蹬立、一腿后屈。从其相貌来看，前额有皱纹，为老年形象，与第7窟童子形象形成鲜明对比。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_007",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": 0.941667,
+      "matching_pairs": [
+        {
+          "entry_id_a": "v06_0155_009",
+          "entry_id_b": "v06_0155_010",
+          "similarity": 0.941667
+        }
+      ],
+      "records": [
+        {
+          "dataset_index": [
+            634,
+            635
+          ],
+          "entry_id": [
+            "v06_0155_009",
+            "v06_0155_010"
+          ],
+          "name": "后室东壁北侧第3层龛主佛",
+          "image_path": [
+            "images/06-第六卷-第8窟/v06_ref_p0068_cade1f1b8dd6.jpg",
+            "images/06-第六卷-第8窟/v06_ref_p0067_67c4ddfd42cf.jpg"
+          ],
+          "description": "后室东壁北侧第3层龛主尊坐佛佛像头具高髻，面相丰圆、下巴略尖、细眉长目、双耳垂肩，内着僧祇支，外着偏袒右肩式袈裟。持钵的左手残损，可见钵顶部较平，右手举于胸前，掌心向内，露出手背。食指向上微曲，中指弯曲欲捏拇指，无名指向内弯曲，呈现出一种自然放松的状态。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_008",
+      "record_count": 1,
+      "expanded_image_count": 1,
+      "max_pair_similarity": 0.928177,
+      "matching_pairs": [
+        {
+          "entry_id_a": "v06_0155_016",
+          "entry_id_b": "v06_0155_017",
+          "similarity": 0.928177
+        }
+      ],
+      "records": [
+        {
+          "dataset_index": [
+            638,
+            639
+          ],
+          "entry_id": [
+            "v06_0155_016",
+            "v06_0155_017"
+          ],
+          "name": "后室东壁第 3 层两龛之间龛柱局部",
+          "image_path": "images/06-第六卷-第8窟/v06_ref_p0075_bddfa1fadb72.jpg",
+          "description": "后室东壁第3层两龛之间龛柱两龛之间共用一柱，拱尾雕龙首，一大一小，均回首瞪视。大龙嘴巴张开，小龙嘴巴闭合，龙身向上拱起各自构成龛缘。柱头上、下端皆为旋涡纹，线刻清晰，对应匀称，柱腰束忍冬三叶纹。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_009",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 733,
+          "entry_id": "v07_0184_024",
+          "name": "前室西壁第4层龛主佛",
+          "image_path": [
+            "images/07-第七卷-第9窟/v07_p0099_r02_28840539ab5e.jpg",
+            "images/07-第七卷-第9窟/v07_p0100_r01_8e334467d379.jpg"
+          ],
+          "description": "前室西壁第4层龛主尊坐佛交脚佛像具高肉髻、面相丰圆、弯眉秀目、鼻直口方、嘴角含笑，双耳大且下垂。内着僧祇支，外着半袒右肩式袈裟，左手置于腰间，掌心朝外，右手上举胸前为施无畏印，交脚坐于狮子座之上。圆形头光内刻莲瓣纹和忍冬纹，舟形身光内雕火焰纹与禅定坐佛，装饰精美、图案华丽。背光左右两侧各雕二供养比丘。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_010",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 894,
+          "entry_id": "v09_0202_007",
+          "name": "西壁南侧第1层第3排龛主尊交脚菩萨头部",
+          "image_path": [
+            "images/09-第九卷-第11窟/v09_ref_p0059_e08d0a6f97c6.jpg",
+            "images/09-第九卷-第11窟/v09_ref_p0060_d485e9c11837.jpg"
+          ],
+          "description": "西壁南侧第1层第3排龛主尊交脚菩萨菩萨面相丰圆、眉清目秀。头戴三面冠，中间圆盘中心凸起，边饰莲瓣纹，顶置仰月与日轮。人物帔帛覆肩，于腹间交叉绕臂下垂，右手为施无畏印，交脚坐于方座之上，脚踏莲台。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_011",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 908,
+          "entry_id": "v09_0203_002",
+          "name": "西壁中部第 2 层龛南起第",
+          "image_path": [
+            "images/09-第九卷-第11窟/v09_ref_p0079_8118740906ec.jpg",
+            "images/09-第九卷-第11窟/v09_ref_p0080_4c5b13444097.jpg"
+          ],
+          "description": "西壁中部第2层龛七佛立像局部佛像具水波纹饰高肉髻，眉清目秀，额头雕白毫相，着褒衣博带式服装，下摆外侈、颇有动感。曲左臂手掌向前为与愿手印，右手举胸为施无畏手印。造像比例匀称，身姿前倾、俯视众生，表情恬静庄严。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_012",
+      "record_count": 1,
+      "expanded_image_count": 3,
+      "max_pair_similarity": 0.961652,
+      "matching_pairs": [
+        {
+          "entry_id_a": "v11_0180_031",
+          "entry_id_b": "v11_0180_032",
+          "similarity": 0.961652
+        }
+      ],
+      "records": [
+        {
+          "dataset_index": [
+            1205,
+            2728
+          ],
+          "entry_id": [
+            "v11_0180_031",
+            "v11_0180_032"
+          ],
+          "name": "东壁南侧第3层第1排圆拱龛及并坐二佛",
+          "image_path": [
+            "images/11-第十一卷-第13窟/v11_p0044_r01_b36a2cb5ea63.jpg",
+            "images/11-第十一卷-第13窟/v11_p0044_r02_a321b5eae487.jpg",
+            "images/11-第十一卷-第13窟/v11_p0043_r04_e8b8d48764fa.jpg"
+          ],
+          "description": "东壁南侧第3层第1排圆拱龛圆拱龛内雕二佛并坐，着半袒右肩式袈裟，曲领、边饰折带纹。右手结施无畏印。龛外两胁侍菩萨头梳大髻、斜披络腋、下着长裙。龛外两上隅各雕一交脚菩萨像。圆拱龛双层帷幕间雕10尊禅定坐佛。龛下补刻三小龛，并打破了原有的布局。龛楣中央雕童子像，胸肌发达，双臂呈“S”形展开，为舒相坐，动作自由、身体舒展。两侧雕忍冬纹，枝缠叶绕、千变万化。",
+          "category": "建筑空间"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_013",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1288,
+          "entry_id": "v11_0188_004",
+          "name": "第 13-4 窟东起第 2 柱东面上部",
+          "image_path": [
+            "images/11-第十一卷-第13窟/v11_ref_p0257_5b79873a2d81.jpg",
+            "images/11-第十一卷-第13窟/v11_ref_p0258_c1da1cc74a5c.jpg"
+          ],
+          "description": "第13-4窟东起第2柱东面局部残损、风化。第1层雕约30座小圆拱龛，除一龛雕二佛并坐外，其余均雕禅定坐佛。第2层北侧宝盖龛内雕一佛、二胁侍菩萨。南侧散雕小圆拱龛。第3层的小龛内置坐佛。第4层并列雕二圆拱龛，内雕一佛、二胁侍菩萨。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_014",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1290,
+          "entry_id": "v11_0188_006",
+          "name": "第 13-4 窟东起第 2 柱东面第 2 层方形龛龛楣",
+          "image_path": [
+            "images/11-第十一卷-第13窟/v11_ref_p0259_91ba28f35ad9.jpg",
+            "images/11-第十一卷-第13窟/v11_ref_p0260_1825cb1e547f.jpg"
+          ],
+          "description": "第13-4窟东起第2柱东面第2层方形龛龛内雕一坐佛，面残，着双领下垂式袈裟，下摆衣襞平铺于座前地面。左手结与愿印，右手结施无畏印（残）。龛下置莲台。胁侍菩萨立于龛外两侧，手托钵或手持物供养。上雕一思惟菩萨坐于束帛座上。宝盖龛装饰华丽，下雕重层三角纹，内衬折叠帷幕，上饰三层鱼鳞纹。盖顶雕三角与圆形相间，两端出龙头低垂，口衔宝珠、下悬流苏。整龛向内凹进约20厘米，是晚期同类佛龛的代表作品。",
+          "category": "建筑空间"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_015",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1311,
+          "entry_id": "v11_0189_007",
+          "name": "第 13-16 窟西壁立佛之间下层三童子与儒童",
+          "image_path": [
+            "images/11-第十一卷-第13窟/v11_ref_p0284_30043defd2b2.jpg",
+            "images/11-第十一卷-第13窟/v11_ref_p0285_c51728532dca.jpg"
+          ],
+          "description": "第13-16窟西壁佛经故事：儒童本生、阿输迦施土因缘西壁并立二佛，南侧佛像残毁严重。二立佛分别表现“儒童本生”“阿输迦施土因缘”两个佛经故事。该造像以这样的组合形式出现，耐人寻味。出于构图上的需要，儒童被安排在佛像左侧，这种做法亦十分罕见。“阿输迦施土因缘”故事图中的三童子，叠罗汉式攀爬竖立，最下面童子胡跪，双手托住上面踩在他头上的童子的另一条腿，最上面童子蹬在中间童子腿上稳稳地直身向佛钵捧土奉献，动作诙谐可爱。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_016",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1379,
+          "entry_id": "v12_0158_002",
+          "name": "第 14 窟前室西壁第 2 层单元第 2 排南龛主尊交脚菩萨",
+          "image_path": [
+            "images/12-第十二卷-第14、15、16-1窟/v12_ref_p0053_186b95875f56.jpg",
+            "images/12-第十二卷-第14、15、16-1窟/v12_ref_p0054_352128e4e650.jpg"
+          ],
+          "description": "第14窟前室西壁第2层单元第2排南侧宝盖龛帐形宝盖龛内雕一交脚菩萨，头戴三面冠，正面冠顶雕饰日月。菩萨上身着十字帔帛，下身着大裙，左手抚膝，右手举于胸前。坐方座，脚下分踏小莲台。座前两侧各雕一胡跪供养天，头梳大髻、具圆光，着通肩广袖衣，双手合十。宝盖两侧垂流苏。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_017",
+      "record_count": 1,
+      "expanded_image_count": 3,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2753,
+          "entry_id": "v12_0162_025",
+          "name": "第15窟西壁第2层千佛龛单元中央圆拱龛主尊坐佛及头部",
+          "image_path": [
+            "images/12-第十二卷-第14、15、16-1窟/v12_p0110_r01_1cc2ac2d284b.jpg",
+            "images/12-第十二卷-第14、15、16-1窟/v12_p0110_r02_8dc55e2540c7.jpg",
+            "images/12-第十二卷-第14、15、16-1窟/v12_p0109_r02_483d7ec893b7.jpg"
+          ],
+          "description": "第15窟西壁第2层千佛龛单元中央圆拱龛佛像坐姿端正、肉髻高耸、面容俊俏、肢体壮实。衣饰明显可见三层，内衬僧祇支，中衣结带下垂分叉，衣领外翻，右衣襟从结带下搭向左臂，与一般褒衣博带式佛衣略有区别。双手结禅定印。臂下衣袖遮双膝，腿间衣襞呈“U”形前铺。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_018",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1482,
+          "entry_id": "v12_0165_003",
+          "name": "第 16-1 窟北壁第 4 层三龛组合西龛右下隅供养天",
+          "image_path": [
+            "images/12-第十二卷-第14、15、16-1窟/v12_ref_p0235_03c1da277f90.jpg",
+            "images/12-第十二卷-第14、15、16-1窟/v12_ref_p0236_2dffc2b59c51.jpg"
+          ],
+          "description": "第16-1窟北壁第4层三龛组合西龛右侧供养天供养天头束高髻，上身斜披络腋，帔帛从背后向前绕肘部下垂。下方的供养天身材匀称、合掌胡跪。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_019",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": 0.936047,
+      "matching_pairs": [
+        {
+          "entry_id_a": "v14_0152_015",
+          "entry_id_b": "v14_0152_017",
+          "similarity": 0.936047
+        }
+      ],
+      "records": [
+        {
+          "dataset_index": [
+            1657,
+            1658
+          ],
+          "entry_id": [
+            "v14_0152_015",
+            "v14_0152_017"
+          ],
+          "name": "东壁南端第2层盈形龛（以下简称“东坐佛龛”）",
+          "image_path": [
+            "images/14-第十四卷-第17窟/v14_p0046_r01_3f328798023a.jpg",
+            "images/14-第十四卷-第17窟/v14_p0047_r01_0d78cb43bf9e.jpg"
+          ],
+          "description": "佛像颔首微笑、挺胸敛腹，身着通肩式袈裟，衣纹扁平凸起。双手于腹前结禅定印，右手在前，左手紧贴其后，拇指相接并向上拱起，掌心向上，指甲圆润，拇指与食指间有三角形空隙。右臂缺损，有断面并存凿痕。右手腕及左臂上有木质榫件，用来固定断臂，应是古代维修遗留痕迹。佛像跏趺而坐，右脚置于左腿之上，趾形生动。整尊佛像比例协调、秀美大气。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_020",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1684,
+          "entry_id": "v14_0154_025",
+          "name": "东壁中部第3层第1排二龛组合下龛主尊坐佛",
+          "image_path": [
+            "images/14-第十四卷-第17窟/v14_p0073_r01_3aa6b507a6d6.jpg",
+            "images/14-第十四卷-第17窟/v14_p0073_r02_cc890223566a.jpg"
+          ],
+          "description": "东壁中部第3层第1排二龛组合下侧圆拱龛下龛坐佛着偏袒右肩式袈裟，右手为施无畏手印，左手竖向握法衣。胁侍菩萨只存左侧者，菩萨戴冠，右手举于胸前，左手提净瓶。龛内上端对称雕刻二飞天，双手合掌、身姿弯曲，头和足分别连在龛顶与侧壁上。龛楣素面，拱尾二龙返顾，立于柱头。龛外左右各有五供养比丘，双手合掌，最下一比丘坐于束帛座上。龛下有鲜卑装供养人队列，中央置博山炉。左侧可见五男性供养人，头戴鲜卑帽，着对襟窄袖长袍，腰束带，首位举右手向炉体，左手握物，其后四人袖手站立。博山炉右侧只存一供养人轮廓。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_021",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1941,
+          "entry_id": "v16_0177_027",
+          "name": "南壁东侧第1层第2排左端圆拱龛",
+          "image_path": [
+            "images/16-第十六卷-第19窟/v16_ref_p0079_8518678ff49b.jpg",
+            "images/16-第十六卷-第19窟/v16_p0055_r01_9efe9d871a4d.jpg"
+          ],
+          "description": "南壁东侧第1层第2排龛像此组佛龛雕凿在靠近窟门的较大佛龛之下。东起第1龛为圆拱龛，内设释迦、多宝二佛并坐像。第2龛为盏形龛，内雕一交脚菩萨、二胁侍菩萨。第3龛随壁面斜向凹进，圆拱龛内雕一交脚菩萨、二胁侍菩萨，方座前二比丘胡跪。龛楣为华绳交幔，之上有七小圆拱龛。龛基补雕一圆拱坐佛小龛，两侧分立供养人列像。",
+          "category": "建筑空间"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_022",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1953,
+          "entry_id": "v16_0178_019",
+          "name": "南壁东侧第 2 层千佛龛单元局部",
+          "image_path": [
+            "images/16-第十六卷-第19窟/v16_ref_p0100_fb4c25550a6f.jpg",
+            "images/16-第十六卷-第19窟/v16_ref_p0101_515781109d99.jpg"
+          ],
+          "description": "南壁东侧第2层千佛龛单元中部窟门之上的壁面坍塌严重，此处千佛龛向东或向西的延伸处未见雕刻，有可能在雕刻之时便已崩落。坍塌壁面的孔洞显示了后来修补的痕迹。千佛龛在层序上与南壁东西两侧相连续，佛龛造型与造像也一致，佛衣多为通肩式与袒右臂式，相间排列。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_023",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": [
+            1954,
+            1955
+          ],
+          "entry_id": "v16_0178_020,v16_0178_021",
+          "name": "南壁第3、4层龛像",
+          "image_path": [
+            "images/16-第十六卷-第19窟/v16_ref_p0102_035de95c115e.jpg",
+            "images/16-第十六卷-第19窟/v16_ref_p0103_3c5352d4222e.jpg"
+          ],
+          "description": "明窗两侧与东西壁相接之处各雕一较大立佛像，约为七排千佛龛之高度。立佛像足底与明窗底部齐平，佛像之上的两排千佛龛与东西壁的千佛龛相连续。",
+          "category": "建筑空间"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_024",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 1974,
+          "entry_id": "v16_0180_007",
+          "name": "第 19-1 窟主佛背光左半部",
+          "image_path": [
+            "images/16-第十六卷-第19窟/v16_ref_p0140_365fce693657.jpg",
+            "images/16-第十六卷-第19窟/v16_ref_p0139_c8f06fad5b2e.jpg"
+          ],
+          "description": "第19-1窟主佛背光左侧佛背后的光芒几乎覆盖了壁面。头光图案从内向外依次为莲花、坐佛、供养天、火焰；身光图案则为素面坐佛、跪姿供养天、并列忍冬纹。头光和身光的纹样风格一致、熠熠生辉。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_025",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 3145,
+          "entry_id": "v17_0145_021",
+          "name": [
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0107_2fbf91545642.jpg",
+            "东立佛头光外第5排龛两侧主尊坐佛头部"
+          ],
+          "image_path": [
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0108_4e6cba23eda5.jpg",
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0109_c0e297a9ebaf.jpg"
+          ],
+          "description": "东立佛头光外第5排龛二佛并坐坐佛眉间有白毫，眉目温柔可亲，同举右手。手指的关节、厚度和手纹表现清晰。二佛倾身向前，各自相对侧身倾首。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_026",
+      "record_count": 1,
+      "expanded_image_count": 5,
+      "max_pair_similarity": 0.96063,
+      "matching_pairs": [
+        {
+          "entry_id_a": "v17_0145_024",
+          "entry_id_b": "v17_0145_025",
+          "similarity": 0.96063
+        }
+      ],
+      "records": [
+        {
+          "dataset_index": [
+            2091,
+            2833
+          ],
+          "entry_id": [
+            "v17_0145_024",
+            "v17_0145_025"
+          ],
+          "name": "东立佛头光外第 5 排龛右上侧供养天",
+          "image_path": [
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0112_29592c02474e.jpg",
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0113_9ae00b3c0ab6.jpg",
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0114_cc226e2ca3a7.jpg",
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0115_8007d297e653.jpg",
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0111_e7f4453bebbf.jpg"
+          ],
+          "description": "东立佛头光外第5排龛右侧供养天龛外右上侧有四供养天，一胡跪、一立姿；另二天仅于龛楣外上侧露出上半身。均线刻圆形头光，臂、腕戴钏、镯，斜披络腋。胡跪者头戴三面宝冠，顶饰仰月，额发分瓣，颜面丰腴、五官紧凑，身材比例协调；颈饰项圈，下缀圆形宝珠，双手相叠捧物，朝向主像，雕刻细腻微妙。其他三天人头梳高髻、五官小巧、两腮丰盈、耳饰突出、身形略小。立姿供养天立于胡跪者身后，右手持忍冬叶，设计构思别具一格。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_027",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": 0.821053,
+      "matching_pairs": [
+        {
+          "entry_id_a": "v17_0153_008",
+          "entry_id_b": "v17_0153_011",
+          "similarity": 0.821053
+        }
+      ],
+      "records": [
+        {
+          "dataset_index": [
+            2132,
+            2135
+          ],
+          "entry_id": [
+            "v17_0153_011",
+            "v17_0153_008"
+          ],
+          "name": "千佛龛",
+          "image_path": [
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0284_c2f40f27ac68.jpg",
+            "images/17-第十七卷-第20窟及出土雕刻/v17_ref_p0287_1840a6ca92fc.jpg"
+          ],
+          "description": "上、下排错缝排列。坐佛着通肩衣。龛楣有“人”字形阴线。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_028",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2158,
+          "entry_id": "v18_0182_003",
+          "name": "第 21 窟东壁第 2 层龛右侧主尊坐佛",
+          "image_path": [
+            "images/18-第十八卷-第21-31窟/v18_ref_p0026_2cf6c6d65585.jpg",
+            "images/18-第十八卷-第21-31窟/v18_ref_p0027_d02f425a40cf.jpg"
+          ],
+          "description": "第21窟东壁第2层圆拱龛圆拱龛内原雕释迦、多宝二佛并坐像，左侧佛像现已崩毁，仅存膝盖残迹。佛具高肉髻，外着褒衣博带式衣，内露僧祇支。龛楣雕禅定坐佛于莲台之上，拱尾为立兽返顾。龛右上隅设四排千佛龛（16尊禅坐佛像），所着佛衣或为通肩式或为双领下垂式。龛基须弥座正中雕方形铭石，两侧配置返顾二狮。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_029",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2179,
+          "entry_id": "v18_0183_029",
+          "name": "第 23-1 窟北壁圆拱龛主尊坐佛",
+          "image_path": [
+            "images/18-第十八卷-第21-31窟/v18_ref_p0084_f595ba2b5c1a.jpg",
+            "images/18-第十八卷-第21-31窟/v18_ref_p0085_9ac075512fad.jpg"
+          ],
+          "description": "第23-1窟北壁圆拱龛内有一跏趺坐佛，清癯修长、神情寡漠。削肩，着褒衣博带式衣，内着僧祇支，衣带绾为蝴蝶结引垂。右手上举为施无畏印，左手下垂。裙裾悬裳、褶纹密集。龛外两侧各立一胁侍菩萨。龛楣雕禅坐七佛，端坐于莲台之上。拱尾为二龙返顾，驻立方形龛柱上端。龛外两侧分别排列六排（45个）千佛龛。龛基隐现帷幔，有数身头戴小冠、着宽袖大衣的供养人侧立其间。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_030",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2228,
+          "entry_id": "v18_0187_018",
+          "name": "第 27 窟西壁第 2 层二龛组合南龛主尊菩萨头部",
+          "image_path": [
+            "images/18-第十八卷-第21-31窟/v18_ref_p0179_86427c8f3357.jpg",
+            "images/18-第十八卷-第21-31窟/v18_ref_p0180_16c8d76dc8f0.jpg"
+          ],
+          "description": "第27窟西壁第2层二龛组合南侧龛主尊交脚菩萨菩萨头戴三面宝冠，面部丰长，右手上举、左手破损。帔帛搭肩而下，下摆散披于方形台座之上。菩萨身姿挺拔端庄，表情庄严凝重，面部一道裂隙，一旁是当年留下的盗洞。或许正是由于这道裂隙，才免于被盗。东壁与之相对的菩萨像则无此幸运，被整体掘去。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_031",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 3168,
+          "entry_id": "v18_0191_006",
+          "name": "第 29 窟南壁东侧第 1 层主尊左足侧三童子",
+          "image_path": [
+            "images/18-第十八卷-第21-31窟/v18_ref_p0273_62488a15a9d7.jpg",
+            "images/18-第十八卷-第21-31窟/v18_ref_p0275_620b8689d4f8.jpg"
+          ],
+          "description": "第29窟南壁东侧第1层佛经故事：阿输迦施土因缘立佛具舟形大背光，可能为避让出现的石质问题，背光顶端桃形尖并未居于背光中间，两侧雕供养天。佛像面形削长、广额长耳、双目微合。削肩窄背，着褒衣博带式衣，衣纹密集。右手上举，垂左手持钵，下方有三童子似正在攀爬。最下边胡跪一童子，双手紧紧抱住中间童子蹬在他膝头上的一只脚；中间童子双手捧物上举；最上面的童子，具剃发形，双手捧物似欲投向佛钵。佛身后另有一比丘合掌恭立。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_032",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2277,
+          "entry_id": "v18_0191_023",
+          "name": "第 30 窟西壁第 2 层三龛组合中龛主佛衣纹",
+          "image_path": [
+            "images/18-第十八卷-第21-31窟/v18_ref_p0291_f1da6989fd6f.jpg",
+            "images/18-第十八卷-第21-31窟/v18_ref_p0292_006c13241ff3.jpg"
+          ],
+          "description": "第30窟西壁第2层三龛组合中部方形龛主尊坐佛方形龛内存一坐佛、二胁侍菩萨。佛像平额长面、细眼直鼻、薄唇含笑，颈细而长、双肩削狭，神情温和恬淡、清秀俊逸。举右手为施无畏印，左手悬腕置膝。着褒衣博带式衣，内着僧祇支，胸前衣带压在横过胸前的衣襟下面，这样的形式另见于其他晚期洞窟。横搭左腕的衣襟显得十分厚重，下摆悬于座上，折褶层叠繁缛，这是云冈晚期造像服饰的典型特征。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_033",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2280,
+          "entry_id": "v18_0191_027",
+          "name": "第30窟西壁第2层三龛组合南侧龛主尊立佛衣纹",
+          "image_path": [
+            "images/18-第十八卷-第21-31窟/v18_ref_p0295_3e2b1955c469.jpg",
+            "images/18-第十八卷-第21-31窟/v18_ref_p0296_a87dd3df03a0.jpg"
+          ],
+          "description": "第30窟西壁第2层三龛组合南侧龛龛内一立佛头部有孔洞，或为施工中发生意外而补救所留。佛像内着僧祇支，外覆褒衣博带式衣，胸前衣带一仍主尊的样式，掖于衣襟之下。中衣雕“V”形衣纹，衣缘褶纹如波，又如一叶菩提，垂悬在腹际。右手上举为施无畏印，屈左手自然下垂，食指下指。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_034",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2320,
+          "entry_id": "v18_0194_021",
+          "name": "第 31 窟后室南壁西侧第 3 层龛右上隅魔众",
+          "image_path": [
+            "images/18-第十八卷-第21-31窟/v18_ref_p0364_fbca0717780b.jpg",
+            "images/18-第十八卷-第21-31窟/v18_p0178_r01_454125bb9d67.jpg"
+          ],
+          "description": "第31窟后室南壁西侧第3层圆拱龛佛经故事：降魔成道这是表现释迦降魔成道的故事画面，龛内佛像头部仅存少许，龛外上方残余部分魔众，其余均崩毁。魔众仍以龛额举山者为中心，为表现其力大无比，全身肌肉隆起，肥硕而又有滑稽感，山则形似元宝。右侧群魔中有牛首形、逆发形，有吐舌、持锤、持棍三态，他们的面部表情显得十分凝重。",
+          "category": "佛教故事"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_035",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2398,
+          "entry_id": "v19_0190_005",
+          "name": "第 35 窟东壁盞形龛",
+          "image_path": [
+            "images/19-第十九卷-第32-45窟/v19_p0068_r01_b6db1656f5a7.jpg",
+            "images/19-第十九卷-第32-45窟/v19_ref_p0122_1e97c319d76b.jpg"
+          ],
+          "description": "第35窟东壁壁面布局与西壁相似。龛基雕供养人行列。壁中央雕一盞形龛，内雕一交脚菩萨、二思惟菩萨造像组合，折屏式龛楣，龛楣格内雕禅定坐佛。两上隅雕佛“涅槃”图与“舍身饲虎”本生故事图。龛顶横列两排千佛龛。",
+          "category": "佛教故事"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_036",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2402,
+          "entry_id": "v19_0190_009",
+          "name": "第 35 窟东壁龛北侧思惟菩萨头部",
+          "image_path": [
+            "images/19-第十九卷-第32-45窟/v19_ref_p0125_0375be365984.jpg",
+            "images/19-第十九卷-第32-45窟/v19_ref_p0126_121de4c058cd.jpg"
+          ],
+          "description": "第35窟东壁龛北侧思惟菩萨思惟菩萨头冠雕饰简洁，正中三角形冠面上方与两侧各置一圆盘形，额前头发呈“人”字形分向两侧。人物细眉低目，呈思索状，直鼻高粱，鼻以下部位崩毁。束帛座及腿部尚存。造像面形略长，刀法简约。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_037",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2408,
+          "entry_id": "v19_0190_018",
+          "name": "第 35 窟窟门东壁第 2 层延昌四年叠形龛",
+          "image_path": [
+            "images/19-第十九卷-第32-45窟/v19_ref_p0134_fc2f6b3903cf.jpg",
+            "images/19-第十九卷-第32-45窟/v19_ref_p0135_8118bc680938.jpg"
+          ],
+          "description": "第35窟窟门东壁上下两层布龛。第1层圆拱龛内雕二佛并坐，龛外两侧下端各雕二胁侍菩萨立像，上端分别雕文殊与维摩。龛楣雕九坐佛，手结禅定印。上层盏形龛雕一交脚菩萨、二胁侍菩萨造像，主像头戴花蔓冠，面部已残毁，颈戴项圈、削肩、身披帔帛，帛呈“W”形交叉后轻落腿面，衣裾呈八字形垂悬于方形台座立面上。足下一地神半身涌现，托举菩萨双足。龛外两侧各一立侍菩萨，装束与主像大致相同。折屏式龛楣内雕禅坐七佛。龛基长方形题铭石刻延昌四年造像题记，左端雕二供养人，穿交领广袖大衣，前者手持长柄香炉，后者合掌恭立。右端雕三比丘，居首者身高体大，后者渐矮，均穿交领广袖僧衣，足蹬高头履，拱手礼敬。",
+          "category": "建筑空间"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_038",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2435,
+          "entry_id": "v19_0192_017",
+          "name": "第36窟北壁第1层圆拱龛主尊坐佛",
+          "image_path": [
+            "images/19-第十九卷-第32-45窟/v19_ref_p0178_22bfc75520ac.jpg",
+            "images/19-第十九卷-第32-45窟/v19_ref_p0179_9b3617cfe07c.jpg"
+          ],
+          "description": "第36窟北壁第1层圆拱龛龛内坐一佛，具高肉髻，面相长圆、细目低垂、沉静慈祥。佛着褒衣博带式衣，右领襟横搭左臂，右手上举，左手下垂。龛外两侧宝盖下各一胁侍菩萨，头戴三角饰冠，双肩敷搭帔帛，在腹际交叉后上绕手臂。下身着裙，身材修长。龛楣雕禅坐七佛，龛楣上缘交织华绳。龛外数身供养天合掌胡跪。",
+          "category": "人物造像"
+        }
+      ]
+    },
+    {
+      "group_id": "description_overlap_039",
+      "record_count": 1,
+      "expanded_image_count": 2,
+      "max_pair_similarity": null,
+      "matching_pairs": [],
+      "records": [
+        {
+          "dataset_index": 2469,
+          "entry_id": "v19_0195_006",
+          "name": "第 37 窟东壁龛南上隅佛经故事局部",
+          "image_path": [
+            "images/19-第十九卷-第32-45窟/v19_ref_p0241_9f4642bc3ebe.jpg",
+            "images/19-第十九卷-第32-45窟/v19_ref_p0242_518a027ca063.jpg"
+          ],
+          "description": "第37窟东壁龛南上隅佛经故事：乘象投胎这是表现摩耶夫人夜梦菩萨乘象投胎的佛经故事。装饰华丽的宝盖下，摩耶夫人侧卧于榻上，右上角一头大象，象背上置须弥座，一梳高发髻人物怀抱具舟形背光的小佛像骑乘大象俯冲而下。榻下，四乐伎分别击檐鼓、弹琵琶、抚琴、打腰鼓。她们共奏天乐，似在赞颂这一神圣的时刻。",
+          "category": "佛教故事"
+        }
+      ]
+    },
+    {
+        "entry_id": "v06_0158_014",
+        "name": "后室南壁明窗西侧菩萨",
+        "positive_image_path": [
+          "images/06-第六卷-第8窟/v06_ref_p0155_2f7fffe8e12b.jpg",
+          "images/06-第六卷-第8窟/v06_ref_p0156_ed72ba2e910e.jpg",
+          "images/06-第六卷-第8窟/v06_p0098_r01_1a144ece9b00.jpg"
+        ],
+        "negative_image_path": "",
+        "description": "菩萨面相丰圆、细目长眉，似破颜而笑，最为显眼的是8枚胪列玉齿，脸颊嵌一对酒窝，生动传情，这是该造像的特别之处，也是云冈石窟雕刻中唯一的露齿带酒窝的供养菩萨形象。",
+        "category": "人物造像"
+      }
+  ]
+}

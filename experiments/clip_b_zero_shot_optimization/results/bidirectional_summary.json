@@ -1,0 +1,50 @@
+{
+  "model": "/home/haoyue/Projects/MMM_paper/track_a_experiments/models/pretrained/openai-clip-vit-base-patch32",
+  "data": "/home/haoyue/Projects/MMM_paper/experiments/clip_b_zero_shot_optimization/data/test_queries_translated.json",
+  "device": "cpu",
+  "samples": 573,
+  "positive_group_key": "exact original Chinese description",
+  "positive_groups": 484,
+  "multi_positive_groups": 68,
+  "records_in_multi_positive_groups": 157,
+  "results": {
+    "chinese_description": {
+      "text_to_image": {
+        "recall@1": 0.0017452006980802793,
+        "recall@5": 0.012216404886561954,
+        "recall@10": 0.020942408376963352,
+        "mrr": 0.015273070977381032,
+        "mean_rank": 257.39965095986037,
+        "median_rank": 251
+      },
+      "image_to_text": {
+        "recall@1": 0.0034904013961605585,
+        "recall@5": 0.013961605584642234,
+        "recall@10": 0.019197207678883072,
+        "mrr": 0.015132824170411447,
+        "mean_rank": 282.71204188481676,
+        "median_rank": 286
+      },
+      "mean_recall": 0.011925538103548577
+    },
+    "english_description": {
+      "text_to_image": {
+        "recall@1": 0.020942408376963352,
+        "recall@5": 0.05410122164048865,
+        "recall@10": 0.10645724258289703,
+        "mrr": 0.05280958058798163,
+        "mean_rank": 150.89528795811518,
+        "median_rank": 108
+      },
+      "image_to_text": {
+        "recall@1": 0.015706806282722512,
+        "recall@5": 0.05235602094240838,
+        "recall@10": 0.08027923211169284,
+        "mrr": 0.042403185797918325,
+        "mean_rank": 200.95986038394415,
+        "median_rank": 161
+      },
+      "mean_recall": 0.05497382198952879
+    }
+  }
+}

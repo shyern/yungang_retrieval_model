@@ -15,8 +15,8 @@ vision = [
   "transformers>=4.40",
   "pillow>=10.0",
 ]
+official-clip = ["cn-clip>=1.6,<2"]
 dev = ["pytest>=8.0"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
-

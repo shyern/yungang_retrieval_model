@@ -1,0 +1,72 @@
+{
+  "model": "/home/haoyue/Projects/MMM_paper/track_a_experiments/models/pretrained/openai-clip-vit-base-patch32",
+  "data": "/home/haoyue/Projects/MMM_paper/experiments/clip_b_zero_shot_optimization/data/test_queries_translated.json",
+  "device": "cpu",
+  "samples": 573,
+  "prompt_templates": [
+    "a photograph of {text}",
+    "a detailed photograph of {text}",
+    "a photograph of a Buddhist cave artwork showing {text}",
+    "a close-up photograph of {text}"
+  ],
+  "five_crop_aggregation": "mean normalized crop embeddings, then normalize",
+  "elapsed_seconds": 163.369,
+  "results": {
+    "chinese_description": {
+      "recall@1": 0.0017452006980802793,
+      "recall@5": 0.010471204188481676,
+      "recall@10": 0.017452006980802792,
+      "mrr": 0.012657422188127838,
+      "mean_rank": 280.9650959860384,
+      "median_rank": 280
+    },
+    "english_name": {
+      "recall@1": 0.006980802792321117,
+      "recall@5": 0.038394415357766144,
+      "recall@10": 0.04537521815008726,
+      "mrr": 0.027138823714176127,
+      "mean_rank": 245.760907504363,
+      "median_rank": 239
+    },
+    "english_description": {
+      "recall@1": 0.017452006980802792,
+      "recall@5": 0.04886561954624782,
+      "recall@10": 0.09075043630017451,
+      "mrr": 0.04702157285993315,
+      "mean_rank": 167.79232111692843,
+      "median_rank": 130
+    },
+    "english_name_prompt_ensemble": {
+      "recall@1": 0.006980802792321117,
+      "recall@5": 0.027923211169284468,
+      "recall@10": 0.04886561954624782,
+      "mrr": 0.025789370703817302,
+      "mean_rank": 248.39267015706807,
+      "median_rank": 229
+    },
+    "english_description_prompt_ensemble": {
+      "recall@1": 0.015706806282722512,
+      "recall@5": 0.05410122164048865,
+      "recall@10": 0.08202443280977312,
+      "mrr": 0.04519558251676569,
+      "mean_rank": 177.13089005235602,
+      "median_rank": 139
+    },
+    "english_name_prompt_ensemble_five_crop": {
+      "recall@1": 0.005235602094240838,
+      "recall@5": 0.020942408376963352,
+      "recall@10": 0.04712041884816754,
+      "mrr": 0.023907074104079384,
+      "mean_rank": 244.3089005235602,
+      "median_rank": 230
+    },
+    "english_description_prompt_ensemble_five_crop": {
+      "recall@1": 0.015706806282722512,
+      "recall@5": 0.05410122164048865,
+      "recall@10": 0.08726003490401396,
+      "mrr": 0.04668621419226607,
+      "mean_rank": 171.9022687609075,
+      "median_rank": 131
+    }
+  }
+}
